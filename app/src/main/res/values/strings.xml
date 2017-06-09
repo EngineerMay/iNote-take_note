@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">iNote</string>
+    <string name="Choose">Choose</string>
+    <string-array name="listNote">
+        <item>Create a Note</item>
+        <item>Create a CheckList</item>
+    </string-array>
+    <string name="title">Title</string>
+    <string name="note">Note</string>
+    <string name="createNote">Create a new Note</string>
+    <string name="addImage">Add image</string>
+    <string name="saveNote">Save Note</string>
+    <string name="setReminder">Set Reminder</string>
+    <string name="delete">Delete</string>
+    <string name="createCheckList">Create a new Checklist</string>
+    <string name="nameOfChecklist">Name of checklist</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

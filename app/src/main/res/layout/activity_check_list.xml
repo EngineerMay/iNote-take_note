@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/five"
+    android:background="@color/yellowLight"
+    tools:context="com.example.mayankchauhan.inote.checklist.activity.CheckListActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/checklist_name_editText"
+        android:hint="Enter checklist name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/checklist_recycler"
+        android:layout_below="@id/checklist_name_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/five"
+        android:layout_marginBottom="20dp"
+        android:scrollbars="vertical">
+    </android.support.v7.widget.RecyclerView>
+    <Button
+        android:id="@+id/checklistButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/setReminder"
+        android:background="@color/yellowLight"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

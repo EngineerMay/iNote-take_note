@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="@dimen/five"
+    android:backgroundTint="@color/yellowLight"
+    app:cardElevation="@dimen/ten"
+    app:cardCornerRadius="@dimen/five">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/five">
+    <TextView
+        android:id="@+id/todo_checklist"
+        android:layout_marginLeft="@dimen/five"
+        android:layout_marginBottom="@dimen/five"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/delete_task_button"
+            android:background="@drawable/todo_delete_task"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
